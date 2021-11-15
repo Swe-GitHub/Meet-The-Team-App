@@ -1,0 +1,138 @@
+.contact img{
+    width: 30px;
+}
+.App{
+    background-color:#ebe9e4;
+    font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userImage{
+    border-radius: 33px;
+}
+.contact a{
+    margin: 5px;
+}
+.gridview .userCard {
+    width: 235px;
+    
+}
+.userCard {
+  
+  margin-left: 77px;
+  margin-right: 77px;
+  margin-bottom: 77px;
+  padding: 30px;
+  border-radius: 44px;
+  background-color: white;
+}
+.gridview{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.card-container{
+  width: 100%;
+}
+.listview .userCard{
+    display: flex;
+}
+.listview .userImage{
+    right:26%;
+    float: right;
+    position: relative;
+}
+.gridview .userImage{
+  margin-top: 33px;
+    margin-bottom: 31px;
+}
+.listview .place{
+  position: relative;
+    right: 8%;
+    top: 25px;
+    float: right;
+    align-self: end;
+    width: 80%;
+    text-align: initial;
+}
+.listview .contact{
+  position: relative;
+  right: 4%;
+  float: right;
+  align-self: center;
+  padding-right: 23px;
+}
+.listview .userName{
+    position: relative;
+    left: 27%;
+    width: 40%;
+    top: -16px;
+    text-align: initial;
+}
+
+
+.gridview .userCard:nth-child(odd) {
+
+  background: linear-gradient(
+157deg, #e3d5c9 41%, rgba(255,255,255,1) 42%);
+}
+
+.gridview .userCard:nth-child(even) {
+  background: linear-gradient(
+157deg, #e7cdab 41%, rgba(255,255,255,1) 42%);
+}
+.gridview .userCard:first-child,.gridview .userCard:last-child{
+  background: linear-gradient( 
+157deg, #a7b8a8 41%, rgba(255,255,255,1) 42%);
+}
+
+
+.listview .userCard:nth-child(odd) {
+
+  background: linear-gradient(
+122deg, #e3d5c9 21%, rgba(255,255,255,1) 22%);
+}
+
+.listview .userCard:nth-child(even) {
+  background: linear-gradient(
+122deg, #e7cdab 21%, rgba(255,255,255,1) 22%);
+}
+.listview .userCard:first-child,.listview .userCard:last-child{
+  background: linear-gradient(
+122deg, #a7b8a8 21%, rgba(255,255,255,1) 22%);
+}
+
+@media only screen and (max-width: 700px) {
+
+  .listview .userName {
+    position: relative;
+    left: 34%;
+    width: 100%;
+    top: -23px;
+}
+
+.listview .userImage {
+    right: 28%;
+    float: right;
+    position: relative;
+}
+.listview .contact{
+	display: flex;
+    position: relative;
+    bottom: -46px;
+    right: 8%;
+    float: right;
+    width: 128px;
+    align-self: center;
+}
+
+.listview .place {
+    position: relative;
+    right: 15%;
+    top: 16px;
+    align-self: end;
+    width: 200px;
+}
+}
