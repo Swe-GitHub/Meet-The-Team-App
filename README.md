@@ -1,7 +1,9 @@
 # Meet-The-Team-App
 
 App developed with pure HTML, CSS, React JS
+
 Time used: Max of 6 Hrs.
+
 Key Features : Responsiveness, Accessibility, React Framework, Switching the view, Sorting by Name,No UI frameworks used, Prototype from Figma screen design
 
 steps:
